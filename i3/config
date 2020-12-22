@@ -201,21 +201,6 @@ exec --no-startup-id "feh --bg-fill ~/Pictures/debian.png"
 # no borders
 for_window [class="^.*"] border pixel 1
 new_window 1pixel
-# i3wm-mac-syskeys  
-# Visit github.com/datcuandrei/i3wm-mac-syskeys for more info.
-
-# Screen Brightness Controls
-bindsym XF86MonBrightnessUp exec sh /home/andreid/.config/i3wm-mac-syskeys/brightness.sh -inc
-bindsym XF86MonBrightnessDown exec sh /home/andreid/.config/i3wm-mac-syskeys/brightness.sh -dec
-
-# Keyboard Backlight Controls
-bindsym XF86KbdBrightnessUp exec sh /home/andreid/.config/i3wm-mac-syskeys/kbd.sh -inc
-bindsym XF86KbdBrightnessDown exec sh /home/andreid/.config/i3wm-mac-syskeys/kbd.sh -dec
-
-# Volume Controls
-bindsym XF86AudioRaiseVolume exec sh /home/andreid/.config/i3wm-mac-syskeys/vol.sh -inc
-bindsym XF86AudioLowerVolume exec sh /home/andreid/.config/i3wm-mac-syskeys/vol.sh -dec
-bindsym XF86AudioMute exec sh /home/andreid/.config/i3wm-mac-syskeys/vol.sh -mute
 
 # Screenshot
 bindsym Print exec gnome-screenshot -i
