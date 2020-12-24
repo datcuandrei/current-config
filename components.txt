@@ -1,0 +1,10 @@
+i3
+i3status
+dmenu
+xbacklight
+feh
+conky
+compton
+gnome-screenshot
+thunar
+pavucontrol
