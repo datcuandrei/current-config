@@ -24,54 +24,50 @@
 
 clear
 cat README
+echo ""
 echo "Are you sure you want to proceed?[Y/n]"
-read $proceed
-
-DISTRO = $(cat /etc/*-release)
+read proceed
 
 if [[ "$proceed" = "y" || "$proceed" = "Y" ]]; then
 
-	# Installation process
+        # Installation process
 
-	cat components.txt | while read -r component; do
-		case $1 in
-			apt)
-				sudo apt install $component
-				;;
-			dnf)
-				sudo dnf install $component
-				;;
-			pacman)
-				sudo pacman -S $component
-				;;
-			yum)
-				sudo yum install $component
-				;;
-			portage | emerge)
-				sudo emerge $component
-				;;
-			zypper)
-				sudo zypper in $component
-				;;
-			*)
-				clear
-				echo "No package manager was provided as argument or the package manager provided is not supported." &
-				exit 0
-				;;
-		esac
-	done
+        cat components.txt | while read -r component; do
+                case $1 in
+                        apt)
+                                sudo apt install $component
+                                ;;
+                        dnf)
+                                sudo dnf install $component
+                                ;;
+                        pacman)
+                                sudo pacman -S $component
+                                ;;
+                        yum)
+                                sudo yum install $component
+                                ;;
+                        portage | emerge)
+                                sudo emerge $component
+                                ;;
+                        zypper)
+                                sudo zypper in $component
+                                ;;
+                        *)
+                                clear
+                                echo "No package manager was provided as argument or the package manager provided is not supported." &
+                                exit 0
+                                ;;
+                esac
+        done
 
-	# Configuration
+        # Configuration
 
-	echo ""
-	echo "Placing the compton config in it's place..."
-	cp -avr compton.conf ~/.config/compton.conf
-	cd i3
-	echo ""
-	echo "Configuring i3..."
-	cat config ~/.config/i3/config
-	cp -avr i3status.conf ~/.config/i3/i3status.conf
-else
-	clear
-	exit 0
+        echo ""
+        echo "Placing the compton config in it's place..."
+        cp -avr compton.conf ~/.config/compton.conf
+        cd i3
+        echo ""
+        echo "Configuring i3..."
+        cat config ~/.config/i3/config
+        cp -avr i3status.conf ~/.config/i3/i3status.conf
 fi
