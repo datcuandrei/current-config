@@ -12,6 +12,7 @@ Components for this config
    - conky is a utility to display information of the system in a awesome way.
    - compton is a super-lightweight standalone compositor designed to be used in conjunction with Linux desktops.
    - gnome-screenshot is a utility used in the GNOME desktop environment(but works with any DE or WM) for taking screenshots.
+   - thunar is a file manager for Linux and other Unix-like systems.
    
 Important 
 ---------
