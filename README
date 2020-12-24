@@ -1,9 +1,9 @@
-current-i3-config
+deploy-i3
 ==================
-My i3 config files.
+deploys an i3wm configuration. 
 
-Components for this config
---------------------------
+Components that the script will install
+---------------------------------------
    - i3 is the main window manager package.
    - i3status is a utility to generate a string with information to be displayed in the i3bar.
    - dmenu is a utility to launch our apps in the i3 desktop.
