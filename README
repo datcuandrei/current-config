@@ -2,8 +2,8 @@ current-i3-config
 ==================
 My i3 config files.
 
-Components for this config :
-
+Components for this config
+--------------------------
    - i3 is the main window manager package.
    - i3status is a utility to generate a string with information to be displayed in the i3bar.
    - dmenu is a utility to launch our apps in the i3 desktop.
@@ -11,9 +11,10 @@ Components for this config :
    - feh is a utility to set a wallpaper.
    - conky is a utility to display information of the system in a awesome way.
    - compton is a super-lightweight standalone compositor designed to be used in conjunction with Linux desktops.
+   - gnome-screenshot is a utility used in the GNOME desktop environment(but works with any DE or WM) for taking screenshots.
    
-Important :
-
+Important 
+---------
    - This configuration doesn't include i3wm-mac-syskeys.I chose not to include it,as this configuration will be used on other computers too,not just my Mac.
    - Dolphin File Manager doesn't work as expected.Install Thunar instead.
    - Every desktop application that sends notifications will freeze when receiving notifications.
