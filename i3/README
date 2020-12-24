@@ -1,1 +1,3 @@
 The contents of this folder go into ~/.config/i3/.
+
+Note that some of the functions I've implemented are commented out because they don't apply to all machines or I am not using them at the moment.
