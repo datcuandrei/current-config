@@ -10,12 +10,12 @@ Running the script
    
 Supported package managers
 --------------------------
-   - APT
-   - Zypper
-   - Pacman
-   - DNF
-   - YUM
-   - Portage (emerge)
+   - apt
+   - zypper
+   - pacman
+   - dnf
+   - yum
+   - portage (emerge)
    
   * Support for other package managers can be easily added by creating a new case for them.
 
