@@ -10,7 +10,8 @@ Components for this config :
    - xbacklight is a utility to set our laptop’s screen brightness.
    - feh is a utility to set a wallpaper.
    - conky is a utility to display information of the system in a awesome way.
-
+   - compton is a super-lightweight standalone compositor designed to be used in conjunction with Linux desktops.
+   
 Important :
 
    - This configuration doesn't include i3wm-mac-syskeys.I chose not to include it,as this configuration will be used on other computers too,not just my Mac.
