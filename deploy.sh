@@ -22,7 +22,6 @@
 # SOFTWARE.
 #
 
-sudo su <<HERE
 clear
 cat README
 echo "Are you sure you want to proceed?[Y/n]"
@@ -76,4 +75,3 @@ else
 	clear
 	exit 0
 fi
-HERE
