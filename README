@@ -1,5 +1,5 @@
-deploy-i3
-==================
+deploy-system
+=============
 deploys an i3wm configuration. 
 
 Components that the script will install
