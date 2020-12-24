@@ -195,8 +195,8 @@ client.background       #FFFFFF
 # startup 
 #exec --no-startup-id "xrandr --output HDMI-1 --auto --left-of LVDS-1"
 exec --no-startup-id "compton --config ~/.config/compton.conf"
-#exec --no-startup-id "hsetroot -solid #000000"
-exec --no-startup-id "feh --bg-fill ~/Pictures/debian.png"
+exec --no-startup-id "hsetroot -solid #000000"
+#exec --no-startup-id "feh --bg-fill ~/Pictures/debian.png"
 
 # no borders
 for_window [class="^.*"] border pixel 1
