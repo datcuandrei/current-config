@@ -2,6 +2,23 @@ deploy-system
 =============
 deploys an i3wm configuration. 
 
+Running the script
+------------------
+   - Open terminal
+   - sh deploy.sh $1
+   where $1 will be replaced with the package manager you want to use.
+   
+Supported package managers
+--------------------------
+   - APT
+   - Zypper
+   - Pacman
+   - DNF
+   - YUM
+   - Portage (emerge)
+   
+  * Support for other package managers can be easily added by creating a new case for them.
+
 Components that the script will install
 ---------------------------------------
    - i3 is the main window manager package.
