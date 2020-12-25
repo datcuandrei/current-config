@@ -21,16 +21,7 @@ Supported package managers
 
 Components that the script will install
 ---------------------------------------
-   - i3 is the main window manager package.
-   - i3status is a utility to generate a string with information to be displayed in the i3bar.
-   - dmenu is a utility to launch our apps in the i3 desktop.
-   - xbacklight is a utility to set our laptop’s screen brightness.
-   - feh is a utility to set a wallpaper.
-   - conky is a utility to display information of the system in a awesome way.
-   - compton is a super-lightweight standalone compositor designed to be used in conjunction with Linux desktops.
-   - gnome-screenshot is a utility used in the GNOME desktop environment(but works with any DE or WM) for taking screenshots.
-   - thunar is a file manager for Linux and other Unix-like systems.
-   - pavucontrol is a simple GTK based volume control tool ("mixer") for the PulseAudio sound server.
+   - All components that this script will install are found in the components.txt file.
    
    * Other software can be installed by this script to the list.Simply add the name of the package in the components.txt file.
    
