@@ -21,7 +21,7 @@ Supported package managers
 
 Components that the script will install
 ---------------------------------------
-   - All components that this script will install are found in the components.txt file.
+   - All components that this script will install can be found in the components.txt file.
    
    * Other software can be installed by this script to the list.Simply add the name of the package in the components.txt file.
    
