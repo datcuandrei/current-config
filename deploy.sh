@@ -25,10 +25,11 @@
 clear
 cat README
 echo ""
-echo "Are you sure you want to proceed?[Y/n]"
-read proceed
+read -r -p "Proceed? [y/N] " proceed
 
-if [[ "$proceed" = "y" || "$proceed" = "Y" ]]; then
+
+if [[ "$proceed" =~ ^([yY][eE][sS]|[yY])$ ]]
+then
 
         # Installation process
 
