@@ -8,3 +8,5 @@ compton
 gnome-screenshot
 thunar
 pavucontrol
+whois
+dnsutils
