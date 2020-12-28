@@ -1,3 +1,4 @@
+neofetch
 i3
 i3status
 dmenu
