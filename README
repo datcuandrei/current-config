@@ -3,10 +3,14 @@ deploy-system
 deploys my current system config. 
 
 Running the script
-------------------
-   - Open terminal
-   - sh deploy.sh $1
-   where $1 will be replaced with the package manager you want to use.
+------------------   
+   usage: sh deploy.sh [i]
+					  [c]
+					  [f]
+		options :
+		i		only installs what is found in components.txt
+		c		only configures the way it is written in configure.sh
+		f		both installs and configures.
    
 Supported package managers
 --------------------------
