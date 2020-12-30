@@ -1,3 +1,5 @@
+pciutils
+wicd
 kde-standard
 neofetch
 irssi
