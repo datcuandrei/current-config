@@ -1,3 +1,4 @@
+kde-standard
 neofetch
 irssi
 i3
