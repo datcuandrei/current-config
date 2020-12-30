@@ -22,36 +22,30 @@
 # SOFTWARE.
 #
 
-clear
-#cat README
-#echo ""
-#read -r -p "Proceed? [y/N] " proceed
-
-case $1 in
-	i)
-		read -r -p "Enter your package manager(apt/dnf/pacman/yum/portage or emerge/zypper) : " pm
-		sh install.sh $pm
-		;;
-	c)
-		sh configure.sh
-		;;
-	f)
-		read -r -p "Enter your package manager(apt/dnf/pacman/yum/portage or emerge/zypper) : "$
-                sh install.sh $pm
-                sh configure.sh
-		;;
-	*)
-		echo "usage: sh deploy.sh [i]"
-		echo "			  [c]"
-		echo "			  [f]"
-		echo "options :"
-		echo "i		only installs what is found in components.txt"
-		echo "c		only configures the way it is written in configure.sh"
-		echo "f		both installs and configures."
-		;;
-esac
-
-#if [[ "$proceed" =~ ^([yY][eE][sS]|[yY])$ ]]
-#then
-#
-#fi
+cat components.txt | while read -r component; do
+                case $1 in
+                        apt)
+                                sudo apt install $component
+                                ;;
+                        dnf)
+                                sudo dnf install $component
+                                ;;
+                        pacman)
+                                sudo pacman -S $component
+                                ;;
+                        yum)
+                                sudo yum install $component
+                                ;;
+                        portage | emerge)
+                                sudo emerge $component
+                                ;;
+                        zypper)
+                                sudo zypper in $component
+                                ;;
+                        *)
+                                clear
+                                echo "No package manager was provided as argument or the package manage$
+                                exit 0
+                                ;;
+                esac
+done

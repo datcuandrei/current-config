@@ -22,36 +22,12 @@
 # SOFTWARE.
 #
 
-clear
-#cat README
-#echo ""
-#read -r -p "Proceed? [y/N] " proceed
+echo ""
+echo "Placing the compton config in it's place..."
+cp -avr compton.conf ~/.config/compton.conf
+cd i3
+echo ""
+echo "Configuring i3..."
+cat config ~/.config/i3/config
+cp -avr i3status.conf ~/.config/i3/i3status.conf
 
-case $1 in
-	i)
-		read -r -p "Enter your package manager(apt/dnf/pacman/yum/portage or emerge/zypper) : " pm
-		sh install.sh $pm
-		;;
-	c)
-		sh configure.sh
-		;;
-	f)
-		read -r -p "Enter your package manager(apt/dnf/pacman/yum/portage or emerge/zypper) : "$
-                sh install.sh $pm
-                sh configure.sh
-		;;
-	*)
-		echo "usage: sh deploy.sh [i]"
-		echo "			  [c]"
-		echo "			  [f]"
-		echo "options :"
-		echo "i		only installs what is found in components.txt"
-		echo "c		only configures the way it is written in configure.sh"
-		echo "f		both installs and configures."
-		;;
-esac
-
-#if [[ "$proceed" =~ ^([yY][eE][sS]|[yY])$ ]]
-#then
-#
-#fi
