@@ -1,6 +1,7 @@
 pciutils
 wicd
-kde-standard
+xfce4
+xfce4-goodies
 neofetch
 irssi
 i3
