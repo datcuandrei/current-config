@@ -1,6 +1,5 @@
 pciutils
 wicd
-xfce4
 neofetch
 irssi
 i3
