@@ -203,4 +203,4 @@ for_window [class="^.*"] border pixel 1
 new_window 1pixel
 
 # Screenshot
-bindsym Print exec gnome-screenshot -i
+bindsym Print exec xfce4-screenshooter
