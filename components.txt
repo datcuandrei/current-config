@@ -13,3 +13,6 @@ gnome-screenshot
 pavucontrol
 whois
 dnsutils
+tty-clock
+htop
+gedit
