@@ -44,7 +44,7 @@ cat components.txt | while read -r component; do
                                 ;;
                         *)
                                 clear
-                                echo "No package manager was provided as argument or the package manage$
+                                echo "No package manager was provided as argument or the package manage"
                                 exit 0
                                 ;;
                 esac
