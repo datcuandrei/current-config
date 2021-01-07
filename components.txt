@@ -16,3 +16,4 @@ dnsutils
 tty-clock
 htop
 gedit
+openjdk-11-jdk
