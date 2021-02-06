@@ -34,3 +34,5 @@ Important
    - This configuration doesn't include i3wm-mac-syskeys.I chose not to include it,as this configuration will be used on other computers too,not just my Mac.
    - Dolphin File Manager doesn't work as expected.That's why Thunar will be installed instead.
    - Every desktop application that sends notifications will freeze when receiving notifications.
+   
+   
