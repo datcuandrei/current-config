@@ -10,7 +10,7 @@
  - mocp
  - vim
  - openjdk-11-jdk
- - tty-clock
+ - playerctl
  - feh
  - dmenu
  - irssi
