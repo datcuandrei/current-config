@@ -20,3 +20,4 @@ mocp
 i3wm-xfkeys
 dafetch
 MacLinuxUtils
+lf
