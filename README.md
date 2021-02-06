@@ -8,6 +8,7 @@
  - htop
  - dafetch
  - mocp
+ - vim
  - openjdk-11-jdk
  - tty-clock
  - feh
