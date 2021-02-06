@@ -206,24 +206,3 @@ new_window 1pixel
 bindsym Print exec xfce4-screenshooter
 
 gaps inner 20
-
-# i3wm-xfkeys  
-# Visit github.com/datcuandrei/i3wm-xfkeys for more info.
-
-# Screen Brightness Controls
-bindsym XF86MonBrightnessUp exec sh /home/datcuandrei/.config/i3wm-xfkeys/brightness.sh -inc
-bindsym XF86MonBrightnessDown exec sh /home/datcuandrei/.config/i3wm-xfkeys/brightness.sh -dec
-
-# Keyboard Backlight Controls
-bindsym XF86KbdBrightnessUp exec sh /home/datcuandrei/.config/i3wm-xfkeys/kbd.sh -inc
-bindsym XF86KbdBrightnessDown exec sh /home/datcuandrei/.config/i3wm-xfkeys/kbd.sh -dec
-
-# Volume Controls
-bindsym XF86AudioRaiseVolume exec sh /home/datcuandrei/.config/i3wm-xfkeys/vol.sh -inc
-bindsym XF86AudioLowerVolume exec sh /home/datcuandrei/.config/i3wm-xfkeys/vol.sh -dec
-bindsym XF86AudioMute exec sh /home/datcuandrei/.config/i3wm-xfkeys/vol.sh -mute
-
-# Media Controls
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86AudioNext exec playerctl next
