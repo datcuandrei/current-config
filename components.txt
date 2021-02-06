@@ -19,6 +19,7 @@ hsetroot
 mocp
 i3wm-xfkeys
 dafetch
-MacLinuxUtils
+MacLinuxUtils - only Mac
 lf
 vlc
+b43-firmware - only Mac
