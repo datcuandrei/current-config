@@ -195,8 +195,8 @@ client.background       #1C1B19
 # startup 
 exec --no-startup-id "xrandr --output HDMI1 --auto --left-of LVDS1"
 exec --no-startup-id "compton --config ~/.config/picom.conf"
-#exec --no-startup-id "hsetroot -solid #000000"
-exec --no-startup-id "feh --bg-fill ~/Pictures/wallhaven-2k2y5x.jpg"
+exec --no-startup-id "hsetroot -solid #121212"
+#exec --no-startup-id "feh --bg-fill ~/Pictures/wallhaven-2k2y5x.jpg"
 
 # no borders
 for_window [class="^.*"] border pixel 1
