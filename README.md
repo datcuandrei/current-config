@@ -1,9 +1,10 @@
 # My current config
+
+This configuration is for i3wm. I have currently switched to GNOME.
+
 ### i3-gaps 
 <img src="https://raw.githubusercontent.com/datcuandrei/current-config/main/config.png" width=70% height=70% />
 
-### xfce4
-<img src="https://raw.githubusercontent.com/datcuandrei/current-config/main/config-xfce.png" width=70% height=70% />
 
 ## Every config location
 
