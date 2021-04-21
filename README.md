@@ -1,6 +1,7 @@
 # My current config
 
 This configuration is for i3wm. I have currently switched to GNOME.
+My GNOME configuration is pretty much default, the only extension I have installed is Pop Shell.
 
 ### i3-gaps 
 <img src="https://raw.githubusercontent.com/datcuandrei/current-config/main/config.png" width=70% height=70% />
